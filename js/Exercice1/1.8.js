@@ -1,0 +1,11 @@
+const readlineSync = require("readline-sync");
+let truc = 2;
+let name = readlineSync.question("Choisissez un nom");
+console.log("Il reste " + truc-- + " questions.");
+console.log("C'est l'histoire de " + name + " le dindon." + "Le pauvre malheureux est tombé dans un trou et trouva ");
+let objet = readlineSync.question("Quel objet trouve-t-il ?");
+console.log("Il reste " + truc-- + " questions");
+console.log("C'est l'histoire de " + name + " le dindon." + " Le pauvre malheureux est tombé dans un trou et trouva " + objet + " et après je ne sais pas");
+let random = readlineSync.question("Un truc random pour l'exercice.");
+console.log("C'est l'histoire de " + name + " le dindon." + "Le pauvre malheureux est tombé dans un trou et trouva " + objet + " et après je ne sais pas " + random + " trop drôle la blague.");
+console.log("Il reste " + truc-- + " question.");
